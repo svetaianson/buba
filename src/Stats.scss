@@ -1,0 +1,66 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex:1;
+  height: 60%;
+  align-items: center;
+
+  .stats-header {
+    padding-top: 5%;
+    height: 9.5%;
+    z-index: 10;
+    padding-bottom: 3%;
+    .tonzz-logo {
+        padding-top: 3%;
+        height: 100%;
+        width: auto;
+      }
+    }
+
+  .stats-list {
+    width: 85%;
+    height: 80%; /* Ограничение высоты для скроллирования */
+    background-color: rgb(0,0, 0,0.7);
+    overflow-y: auto; /* Активация вертикального скролла */
+    z-index: 10;
+    font-size: auto;
+    scrollbar-width: none;
+    border-radius: 10%;
+    .stats-item {
+      padding-top: 2%;
+      padding-left: 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      height: 15%;
+      border-radius: 50%;
+      img {
+        height: 60%;
+        width: 15%;
+        padding-right: 5%;
+      }
+      .points {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 5%;
+        size: 100%;
+        height: 100%;
+        width: 60%;
+        color: white;
+        font-family: 'Red October', sans-serif;
+      }
+      .boost-segment{
+        .tox{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+

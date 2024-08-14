@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.121d63c2.css",
+    "main.js": "/static/js/main.969e6b51.js",
+    "static/media/wh.png": "/static/media/wh.ca974ecbe17a1099a031.png",
+    "static/media/TONZZ.png": "/static/media/TONZZ.eec48c77fd17da684817.png",
+    "static/media/pl.png": "/static/media/pl.57e1aadc0f1da213dd96.png",
+    "static/media/25.png": "/static/media/25.3534e683e2e7ae9cd15c.png",
+    "static/media/settings.png": "/static/media/settings.7b8deb855518893e41cc.png",
+    "static/media/letter.png": "/static/media/letter.cec967855178463ff9ea.png",
+    "static/media/boost.png": "/static/media/boost.afa8598b0c668e94e24a.png",
+    "static/media/ref.png": "/static/media/ref.fd7c4843d884f15f6b34.png",
+    "static/media/RedOctober.woff2": "/static/media/RedOctober.7875a778644efaa3e1b2.woff2",
+    "index.html": "/index.html",
+    "main.121d63c2.css.map": "/static/css/main.121d63c2.css.map",
+    "main.969e6b51.js.map": "/static/js/main.969e6b51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.121d63c2.css",
+    "static/js/main.969e6b51.js"
+  ]
+}

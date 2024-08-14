@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Red October';
+  src: url('./assets/RedOctober.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; // Позволяет тексту быть отображенным шрифтом по умолчанию до загрузки кастомного шрифта
+}
+.app {
+  text-align: center;
+  background: #0c0d0d no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 0;
+  overflow: hidden; /* Обрезает все, что выходит за границы контейнера */
+  position: relative;
+  .toc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.tochka{
+  position: absolute;
+  width: 70vh;
+  height: 70vh;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.8) 8%, rgba(255, 0, 0, 0) 70%); /* Градиент, постепенно исчезающий */
+  //filter: drop-shadow(0 0 100px rgba(255, 0, 0, 1), 0 0 2000px rgba(255, 0, 0, 1),0 0 300px rgba(255, 0, 0, 1));
+  z-index: 10;
+}
+  
+  .top-bar {
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(34, 34, 34, 0);
+    height: 14%;
+    z-index: 10;
+  }
+  .bottom-bar{
+    padding-top: 12%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(34, 34, 34, 0);
+    height: 11%;
+    background: url('./assets/pl.png') 100% 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 10;
+  }
+
+  .TONZZ {
+    width: 70%;
+    transition: transform 0.25s;
+    border-radius: 50%;
+    z-index: 9;
+  }
+
+
+
+  .bottom-bar button {
+    flex-grow: 1;
+    margin: 0 5px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    height:90%;
+  }
+
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  button img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+    flex:1;
+    height: 60%;
+    z-index: 10;
+    align-items: center;
+  }
+  h1 {
+    font-size: 3em;
+    color: white;
+    
+  }
+  .balanse{
+    display: flex;               // Включаем Flexbox
+    justify-content: center;     // Центрирование по горизонтали
+    align-items: center;
+    font-size: 350%;
+    color: white;
+    height: 10%;
+    width: 100%;
+    padding-top: 4%;
+    z-index: 10;  
+    font-family: 'Red October', sans-serif;
+  }
+  .tonzz-logo {
+    padding-top: 5%;
+    height: 60%;
+    font-size: 2em;
+    z-index: 10;
+    padding-bottom: 8%;
+  }
+  .tonzz-logo img{
+    height: 100%;
+    width: auto;
+  }
+  .battery {
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+  }
+
+  .battery img {
+    width: 5%;
+    height: auto;
+    margin-right: 8%;
+  }
+
+  .tap-limit {
+    font-size: 2em;
+    color: white;
+    font-family: 'Red October', sans-serif;
+  }
+
+  .hard-work-timer {
+    color: red;
+    font-size: 1.2em;
+  }
+}

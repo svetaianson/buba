@@ -1,0 +1,23 @@
+.task-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  
+    &.completed {
+      background-color: #e0e0e0;
+      text-decoration: line-through;
+    }
+  
+    .task-header {
+      font-size: 1.2em;
+      margin-bottom: 8px;
+    }
+  
+    .task-body {
+      font-size: 1em;
+    }
+  }
+  
